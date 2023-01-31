@@ -1,9 +1,114 @@
-header {
-    height: 182px;
-    background-color: #3f9efd;
-    background-image: url(../img/pattern.png);   
+body {
+    margin: 0;
+}
+
+main {
+    width: 1050px;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#banner {
+    height: 90px;
+    background: rgb(25, 132, 255) url(../img/pattern.png) repeat-x top;
+    background-size: 350px 175px;
 }
 
 #logo {
-    width: 15%;
+    height: 40px;
+    padding: 40px 0 0 5px;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-size: 1.8em;
+    font-weight: 800;
+}
+
+#editor-p {
+    color: rgb(0, 204, 255);
+}
+
+.editor {
+    color: gray;
+}
+
+#editor {
+    font-size: 1.05em;
+    font-weight: 600;
+    margin: 8px 0 0 0;
+}
+
+#date {
+    font-size: 0.75em;
+    margin: 2px 0 16px 0;
+}
+
+figure {
+    margin-left: 0;
+}
+
+.figcaption {
+    font-size: 0.8em;
+    margin: 1px 0 1px 0;
+}
+
+#paragraph {
+    margin: 16px 0 20px 0;
+}
+
+ul {
+    margin: 16px 0 25px 0;
+    padding-left: 18px;
+}
+
+table {
+    width: 900px;
+}
+
+.evenColumn {
+    width: 20%;
+    padding: 0 0 0 0;
+}
+
+#oddColumn {
+    width: 60%;
+    padding: 0 0 0 0;
+    text-align: left;
+}
+
+thead #headRaw {
+    background-color: rgb(15, 179, 255);
+    color: whitesmoke;
+}
+
+tbody .raw {
+    background-color: rgb(123, 226, 252);
+}
+
+h3 {
+    color: grey;
+    font-size: 1em;
+    margin: 25px 0 8px 0;
+}
+
+.correlati {
+    width: 200px;
+    height: 170px;
+}
+
+#monitor {
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+}
+
+#graph {
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+}
+
+.correlatiTitle {
+    padding: 10px 0 0 5px;
+    color: white;
+    font-size: 1.2em;
 }
